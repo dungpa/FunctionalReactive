@@ -41,14 +41,14 @@
     <None Include="ParallelPrimes.fsx" />
     <None Include="IO.fsx" />
     <None Include="Worker.fsx" />
-    <Compile Include="Homework.fs" />
+    <Compile Include="Form.fs" />
     <Compile Include="FRP.fs" />
     <Compile Include="Examples.fs" />
     <Compile Include="Assignment.fs" />
     <Content Include="README.txt" />
-    <Compile Include="Form.fs" />
   </ItemGroup>
   <ItemGroup>
+    <Reference Include="FSharp.PowerPack.Parallel.Seq, Version=2.0.0.0, Culture=neutral, PublicKeyToken=a19089b1c74d0809" />
     <Reference Include="mscorlib" />
     <Reference Include="FSharp.Core" />
     <Reference Include="System" />
